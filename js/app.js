@@ -1,10 +1,7 @@
-// ─────────────────────────────────────────────────────────────
-//  REFERENCIAS AL DOM  (las del docente + las nuevas)
-// ─────────────────────────────────────────────────────────────
-const selectDiasProduccion    = document.getElementById('id-select-dias')
-const btnCargarProduccion     = document.getElementById('id-btn-cargar-produccion')
-const btnPresentarProduccion  = document.getElementById('id-btn-presentar-produccion')
-const txtPresentarProduccion  = document.getElementById('id-listado-produccion')
+const selectDiasProduccion = document.getElementById('id-select-dias')
+const btnCargarProduccion = document.getElementById('id-btn-cargar-produccion')
+const btnPresentarProduccion= document.getElementById('id-btn-presentar-produccion')
+const txtPresentarProduccion= document.getElementById('id-listado-produccion')
 const btnTotal = document.getElementById('id-btn-total')
 const txtTotal = document.getElementById('id-total')
 const btnMayor = document.getElementById('id-btn-mayor')
